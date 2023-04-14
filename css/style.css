@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?familia=Abierto+Sans:ital@0;1&mostrar=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+header {
+    background: linear-gradient(rgb(255, 255, 255), rgb(214, 214, 214));
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #3f3f3f;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+
+.encabezado-img {
+    background-image: url(imagen/inty2.jpg);
+    height: 400px;
+    /* Reducir la altura de la imagen */
+    background-size: cover;
+    background-position: center;
+    /* Centrar la imagen */
+    display: flex;
+    flex-direction: column;
+    color: #de161697;
+}
+
+div p {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+div p:hover {
+    background-color: rgba(242, 1, 1, 0.603);
+    color: #ffffff;
+}
+
+.encabezado-img p {
+    font-size: 60px;
+}
+
+
+
+.imagen-cc {
+    margin-top: 309px;
+    /* Ajustar altura de img */
+}
+
+.imagen-cc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.color-fondo {
+    background: linear-gradient(red, gold);
+}
+
+section .imagen-cc {
+    display: flex;
+    width: 600px;
+    height: 430;
+}
+
+.imagen-cc img {
+    width: 300px;
+    /* Ajustar el ancho de la imagen */
+    height: 300px;
+    /* Ajustar la altura de la imagen */
+    margin: 12px;
+    /* Agregar un margen */
+    object-fit: cover;
+    /* Ajustar cómo se ajusta la imagen en su contenedor */
+    transition: all 0.5s ease;
+    /* Agregar una animación */
+}
+
+.imagen-cc img:hover {
+    cursor: pointer;
+    /* Cambiar el cursor cuando el usuario pase el cursor sobre la imagen */
+    transform: scale(1.1);
+    /* Aumentar el tamaño de la imagen cuando el usuario pase el cursor sobre ella */
+}
+
+
+footer {
+    flex-wrap: wrap;
+    margin-top: auto;
+    background: linear-gradient(gold);
+    padding: 60px 0%;
+    color: #343a40;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #272c30;
+    text-transform: capitalize;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #343a40;
+}
+
+footer .fa {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+footer .text-center {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.encabezado-img2 {
+    background-image: url(/assets/img/encabezado2.webp);
+    height: 400px;
+    /* Reducir la altura de la imagen */
+    background-size: cover;
+    background-position: center;
+    /* Centrar la imagen */
+    display: flex;
+    flex-direction: column;
+}
+
+h1.titulo {
+    text-decoration: solid;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+
+
+h2  .subtitulo{
+
+}
+
+p .historia {
+
+}
+
+
+
+.color-fondo2 {
+    background: linear-gradient(red, rgb(116, 59, 2));
+}
+
+
+
+
+
+
+
+
+
+
